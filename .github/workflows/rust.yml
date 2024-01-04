@@ -134,17 +134,17 @@ jobs:
             bin: ${{ github.event.repository.name }}
             name: ${{ github.event.repository.name }}-aarch64-linux-android.tar.gz
             
-          - os_name: Android-ARMv7a
-            os: ubuntu-22.04
-            target: armv7-linux-androideabi
-            bin: ${{ github.event.repository.name }}
-            name: ${{ github.event.repository.name }}-armv7-linux-androideabi.tar.gz
+          # - os_name: Android-ARMv7a
+          #   os: ubuntu-22.04
+          #   target: armv7-linux-androideabi
+          #   bin: ${{ github.event.repository.name }}
+          #   name: ${{ github.event.repository.name }}-armv7-linux-androideabi.tar.gz
             
-          - os_name: Android-ARMv7
-            os: ubuntu-22.04
-            target: arm-linux-androideabi
-            bin: ${{ github.event.repository.name }}
-            name: ${{ github.event.repository.name }}-arm-linux-androideabi.tar.gz
+          # - os_name: Android-ARMv7
+          #   os: ubuntu-22.04
+          #   target: arm-linux-androideabi
+          #   bin: ${{ github.event.repository.name }}
+          #   name: ${{ github.event.repository.name }}-arm-linux-androideabi.tar.gz
             
         toolchain:
           - stable
