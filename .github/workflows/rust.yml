@@ -68,11 +68,11 @@ jobs:
             name: ${{ github.event.repository.name }}-i686-unknown-linux-musl.tar.gz
             skip_tests: true
           
-          - os_name: Linux-riscv64
-            os: ubuntu-20.04
-            target: riscv64gc-unknown-linux-gnu
-            bin: ${{ github.event.repository.name }}
-            name: ${{ github.event.repository.name }}-riscv64gc-unknown-linux-gnu.tar.gz
+          # - os_name: Linux-riscv64
+          #   os: ubuntu-20.04
+          #   target: riscv64gc-unknown-linux-gnu
+          #   bin: ${{ github.event.repository.name }}
+          #   name: ${{ github.event.repository.name }}-riscv64gc-unknown-linux-gnu.tar.gz
 
           # - os_name: FreeBSD-x86_64
           #   os: ubuntu-20.04
